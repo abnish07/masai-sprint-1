@@ -1,0 +1,404 @@
+
+.right-float{
+    float: right;
+    margin: 10px;
+}
+.left-float{
+    float: left;
+}
+.clear-float{
+    float:both;
+}
+#main-logo{
+    width: 100%;
+}
+.button{
+    padding: 20px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    font-size: 14x;
+    font-weight: bold;
+    text-decoration: none;
+}
+.button:hover{
+    background-color: white;
+    color: blue;
+    border: 1px solid;
+}
+.top-menu {
+    padding: 10px 10px;
+}
+
+.class1{
+    background-image: url(../sprint-1/resources/banner.jpg);
+    width: 100%;
+    background-size:cover;
+}
+#id5{
+    text-align: left;
+    color: black;
+    font-size: 50px;
+    padding: 200px;
+}
+.class2{
+    margin: 20px;
+    color: red;
+    font-size: 32px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    text-underline-position: below;
+    text-decoration: underline;
+}
+.flex-box{
+    display: flex;
+}
+.item-left{
+    flex-direction: left;
+    flex-basis: 40%;
+    width: 100%;
+}
+.item-right{
+    flex-direction: right;
+    flex-basis: 60%;
+}
+.grid-box{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: 200px 200px;
+}
+.grid-item img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.grid-box2 {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: auto auto auto ;
+    grid-template-rows: auto auto auto auto  ;
+}
+.grid-item2 img{
+    width: 100%;
+    border-radius: 5px;
+}
+.class-race{
+    font-size: 28px;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+}
+.class-desc{
+    font-size: 20px;
+    padding: 10px;
+    color: darkblue;
+}
+.class-date{
+    font-size: 24px;
+    color: red;
+    text-align: center;
+}
+.flex-box2 {
+    display: flex;
+    
+    margin-left: 20px;
+    background-color: gainsboro;
+}
+.flex-item1{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid;
+}
+.grid-box3{
+    display: grid;
+    grid-gap: 20px;
+
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+}
+.grid-item3 img{
+    border: 1px solid;
+    border-radius: 5px;
+    width: 100%;
+    
+}
+.class3{
+    text-align: center;
+    font-size: 32px;
+    padding: 10px;
+}
+.grid-item3{
+    text-align: center;
+}
+.shop {
+    border-radius: 8px;
+    background-color: red;
+    color: white;
+    padding: 20px;
+    font-size: medium;
+}
+.shop:hover{
+    background-color: blue;
+}
+
+.footer-class{
+    color: gray;
+    border: 1px solid;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 6px;
+    text-align: center;
+
+}
+.center-text{
+    text-align: center;
+}
+.icon-image{
+    display: flex;
+
+}
+
+.icon-class img{
+    width: 10%;
+
+}
+
+.menu:hover{
+    background-color: lightblue;
+}
+
+.about-class{
+    background-image: url(../sprint-1/resources/gallery5.jpeg);
+    height: 200px;
+    width: 1300px;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    text-align: center;
+    font-size: 32px;
+    padding-top: 50px;
+    color: white;
+}
+.about-class3{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: auto auto  ;
+    grid-template-rows: 100px;
+    border-radius: 8px;
+}
+.about-class2{
+    font-size: 32px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+.contact-class1{
+    background-image: url(../sprint-1/resources/gallery2.jpeg);
+    height: 10%;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: red;
+    font-size: 50px;
+    padding: 100px ;
+}
+.form-class{
+    font-size: 24px;
+    text-align: center;
+    margin-top: 50px ;
+    padding: 10px;
+    color: white;
+    background-image: url(../sprint-1/resources/contact_us.jpg);
+}
+
+  @media(max-width: 600px) {
+    #main-logo{
+        width: 100%;
+        text-align: center;
+    }
+    .class1{
+        width: 100%;
+        background-size: cover;
+    }
+    .flex-box{
+        display: flex;
+        flex-direction: column;
+    }
+    .class2{
+        font-size: 24px;
+        text-align: center;
+
+    }
+    .grid-box{
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+    }
+   
+    
+    .grid-box2 {
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: 100%;
+        grid-template-rows: 100%;
+    }
+    .grid-item2 img{
+        width: 100%;
+        border-radius: 5px;;
+    }
+    .flex-box2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+}
+.flex-item1 img{
+    border: 1px solid;
+}
+.grid-box3{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto;
+    margin-left: 20px;
+}
+.class3{
+        font-size: 18px;
+    }
+    .shop{
+        padding: 10px;
+    }
+} 
+ @media(min-width: 600px){
+    
+        .flex-box{
+            display:flex;
+            flex-direction: column;
+           
+        }
+        .class2{
+            font-size: 32px;
+            text-align: center;
+        }
+        .grid-box{
+            display: grid;
+            grid-gap: 10px;
+            grid-template-columns: auto ;
+            grid-template-rows: auto;
+        }
+        .class2{
+            font-size: 24px;
+            text-align: center;
+    
+        }
+        .grid-box2 {
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: 100%;
+        grid-template-rows: 100%;
+    }
+    .grid-box3{
+        display: grid;
+        grid-gap: 5px;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto auto;
+
+    }
+    .class3{
+        font-size: 24px;
+    }
+    .shop{
+        padding: 10px;
+    }
+}
+@media(min-width:768px){
+
+.flex-box{
+    display:flex;
+    flex-direction: column;
+    }
+.class2{
+    font-size: 24px;
+}
+.grid-box{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 200px 200px;
+}
+ 
+    .grid-box2 {
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: auto auto;
+        grid-template-rows: 100%;
+    }
+    .class-race{
+        font-size: 24px;
+        
+    }
+    .class-desc{
+        font-size: 20px;
+       
+    }
+    .class-date{
+        font-size: 24px;
+    }
+    .grid-box3{
+        display: grid;
+        grid-gap: 5px;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto auto;
+    }
+   .class3{
+       font-size: 24px;
+   }
+   .shop{
+       padding: 10px;
+   }
+}
+ @media(min-width: 992px){
+    .flex-box{
+        display: flex;
+        flex-direction: row;
+    }
+   
+    .grid-box{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: 200px 200px;
+    }
+ 
+        .grid-box2 {
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: 100%;
+    }
+    .class-race{
+        font-size: 24px;
+        
+    }
+    .class-desc{
+        font-size: 18px;
+        padding: 10px;
+        color: darkblue;
+    }
+    .class-date{
+        font-size: 24px;
+    }
+    .grid-box3{
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto auto;
+    }
+   .class3{
+       font-size: 24px;
+   }
+   .shop{
+       padding: 20px;
+   }
+} 
